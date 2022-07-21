@@ -36,6 +36,7 @@ The following process explains the installation for a regular node:
      docker run nodeName
      ```
      <br/>
+     <br/>
      This will run the process in the background. You can check the activity on the following list of endpoints and services:
      <br/>
      - **JSON-RPC HTTP service endpoint**: http://localhost:8545
