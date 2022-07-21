@@ -43,7 +43,7 @@ The following process explains the installation for a regular node:
      - **JSON-RPC HTTP service endpoint**: http://localhost:8545
      <br/>
      <br/>
-     - **JSON-RPC WebSocket service endpoint**: [ws://localhost:8545](ws://localhost:8545)
+     - **JSON-RPC WebSocket service endpoint**: ws://localhost:8545
      <br/>
      <br/>
      - **Web block explorer address**: http://localhost:25000/
