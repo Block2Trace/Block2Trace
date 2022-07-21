@@ -17,7 +17,7 @@ If a node wants to be removed, you can etc.
 ## 1) Installation
 The following process explains the installation for a regular node:
   1) Clone or download this repository to the machine where you want to install and operate the Block2Trace node, then enter into the cloned directory.
-    ```
+    -```
     git clone https://github.com/Block2Trace/Block2Trace.git
     ```
   3) Edit the .env file and modify the lines with:
