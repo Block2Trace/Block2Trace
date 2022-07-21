@@ -1,4 +1,4 @@
-#Block 2 Trace | WIKI
+# Block 2 Trace | WIKI
 
 
 To run a block 2 trace node , you must have the following installed:
