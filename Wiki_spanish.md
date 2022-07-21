@@ -17,3 +17,9 @@ Inicialmente, la red va a estar conformada por 4 nodos validadores y un nodo RPC
 - **Alethio Lite Explorer**: para explorar la data de la blockchain a nivel de bloque, transacción y cuenta
 - **Metric Monitoring via Prometheus y Grafana**: brinda insights de cómo progresa la cadena de bloques. (Nota: Esto sólo funciona con besu, con otras cadenas se necesitan otros requerimientos para su funcionamiento)
 - **Optional log monitoring**: esto se puede ejecutar cuando un nodo que va a ejecutarse recibe los parámetros -e.
+
+## Diagrama de Arquitectura
+![System Architecture](https://bafkreic4hlcgqtpiixhf33ubado5texsfq6lvytz2stwftdc2sbv776eru.ipfs.nftstorage.link/)
+
+###### Consensus Algorithm: The besu based Quorum uses IBFT2 consensus mechanism 
+###### Private Tx Algorithm: We use [Tessera](https://docs.tessera.consensys.net/en/stable/) so the nodes can send privateTx
