@@ -36,8 +36,17 @@ The following process explains the installation for a regular node:
      docker run nodeName
      ```
      <br/>
+     This will run the process in the background. You can check the activity on the following list of endpoints and services:
+     - **JSON-RPC HTTP service endpoint**: http://localhost:8545
+     - **JSON-RPC WebSocket service endpoint**: ws://localhost:8545
+     - **Web block explorer address**: http://localhost:25000/
+     - **Blockscout address**: http://localhost:26000/
+     - **Prometheus address**: http://localhost:9090/graph
+     -**Grafana address**: http://localhost:3000/d/XE4V0WGZz/nesu-overview?orgId=1&refresh=10s&from=now-30m&to=now&var-system=All
      <br/>
   5) You're done! 🎊 🎉 🎈
+
+
 
 ###  :bulb: A Quick Guide for [docker-compose](https://docs.docker.com/compose/)
 
