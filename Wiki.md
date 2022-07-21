@@ -35,7 +35,7 @@ Next we will have the Diagram Architecture as shown below to have a better under
 **Conensus Algorithm**  The besu based Quorum uses IBFT2 consensus mechanism 
 
 
-Private Tx Algorithm Both clients use [**Tessera **](https://docs.tessera.consensys.net/en/stable/)
+Private Tx Algorithm Both clients use [Tessera](https://docs.tessera.consensys.net/en/stable/)
 
 
 
