@@ -17,7 +17,7 @@ To run a block 2 trace node , you must have the following installed:
 
 **Dev Network Setup**
 
-All of our documentation guidelines can be found in [Besu Documentation Site] (https://besu.hyperledger.org/en/stable/)
+All of our documentation guidelines can be found in [Besu Documentation Site](https://besu.hyperledger.org/en/stable/)
 
 At the beginning the network will be conformed by 4 Validators , one RPC Node and some monitoring tools like:
 
@@ -33,7 +33,7 @@ Next we will have the Diagram Architecture as shown below to have a better under
 **Conensus Algorithm**  The besu based Quorum uses IBFT2 consensus mechanism 
 
 
-Private Tx Algorithm Both clients use [**Tessera **] (https://docs.tessera.consensys.net/en/stable/)
+Private Tx Algorithm Both clients use [**Tessera **](https://docs.tessera.consensys.net/en/stable/)
 
 
 
