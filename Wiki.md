@@ -7,6 +7,7 @@ To run a block 2 trace node , you must have the following installed:
  
 > **Warning**
 > If on MacOS or Windows, please ensure that you allow docker to use upto 6g. The [Docker for Mac](https://docs.docker.com/desktop/mac/) and [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) sites have details on how to do this at the "Resources" heading
+
 > **Note**
 > On Windows ensure that the drive that this repo is cloned onto is a "Shared Drive" with Docker Desktop. On Windows we recommend running all commands from `GitBash`, `Nodejs` or `Yarn`.
     
