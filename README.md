@@ -18,6 +18,7 @@ If a node wants to be removed, you can etc.
 The following process explains the installation for a regular node:
   1) Clone or download this repository to the machine where you want to install and operate the Block2Trace node, then enter into the cloned directory.
     <br/>
+    <br/>
     - ```
     git clone https://github.com/Block2Trace/Block2Trace.git
     ```
@@ -26,6 +27,7 @@ The following process explains the installation for a regular node:
     - ```
     cd Block2Trace
     ```
+    <br/>
   3) Edit the .env file and modify the lines with:
   4) Edit the docker-compose.yml and make your own changes
   5) In the root directory of the repository (where the file docker-compose.yml exists) run:
