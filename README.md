@@ -33,7 +33,7 @@ The following process explains the installation for a regular node:
   4) Edit the `docker-compose.yml` and make your own changes
   5) In the root directory of the repository (where the file `docker-compose.yml` exists) run:
   The command runs the service in the background, and you can check its activity by running:
-  5) You're done!
+  5) You're done! 🎊 🎉 🎈
 
 ###  :bulb: A Quick Guide for [docker-compose](https://docs.docker.com/compose/)
 
