@@ -31,8 +31,8 @@ Next we will have the Diagram Architecture as shown below to have a better under
 
 ![System Architecture](https://bafkreic4hlcgqtpiixhf33ubado5texsfq6lvytz2stwftdc2sbv776eru.ipfs.nftstorage.link/)
 
-    ##Consensus Algorithm  The besu based Quorum uses IBFT2 consensus mechanism 
-    ##Private Tx Algorithm We use [Tessera](https://docs.tessera.consensys.net/en/stable/) so the nodes can send privateTx
+###Consensus Algorithm  The besu based Quorum uses IBFT2 consensus mechanism 
+###Private Tx Algorithm We use [Tessera](https://docs.tessera.consensys.net/en/stable/) so the nodes can send privateTx
 
 
 
