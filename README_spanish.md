@@ -18,9 +18,9 @@ El siguiente proceso explica la instalación de un nodo regular:
   1) Clone o descargue este repositorio en la máquina que desee instalar y operar el nodo de Block2Trace, luego ingrese en el directorio clonado.
     <br/>
     <br/>
-    - ```
-    git clone https://github.com/Block2Trace/Block2Trace.git
-    ```
+    - 
+      git clone https://github.com/Block2Trace/Block2Trace.git
+    
     <br/>
     <br/>
     - ```
