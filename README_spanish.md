@@ -10,7 +10,6 @@ La red de Block2Trace posee 3 tipos de nodos:
 
 El actual documento es una guía para poder realizar el set up de un nodo de Block2Trace, por medio de la implementación de los siguientes pasos:
 1. Instalación y configuración
-2. Obtención de permisos
 
 ### :bulb: Revisa la documentación de [Web3.js](https://web3js.readthedocs.io/en/v1.7.4/), [Ethers](https://docs.ethers.io/v5/)!
 
@@ -62,5 +61,3 @@ El siguiente proceso explica la instalación de un nodo regular:
 
 
 ### :bulb: Una Guía Rápida para [docker-compose](https://docs.docker.com/compose/)
-
-## 2) Permisos del Nuevo Nodo
