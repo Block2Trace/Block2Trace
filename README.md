@@ -10,7 +10,6 @@ Block2Trace Network has 3 types of nodes:
 
 The following doc will guide you on how to set up a Block2Trace node, by following the next steps:
 1. Installation & configuration
-2. Getting permissions
 
 ### :bulb: Check the documentation of [Web3.js](https://web3js.readthedocs.io/en/v1.7.4/), [Ethers](https://docs.ethers.io/v5/)!
 
@@ -29,7 +28,7 @@ The following process explains the installation for a regular node:
     ```
     <br/>
     <br/>
-   3) Execute the following command:
+   2) Execute the following command:
      <br/>
      <br/>
      - ```
@@ -58,10 +57,8 @@ The following process explains the installation for a regular node:
      -**Grafana address**: http://localhost:3000/d/XE4V0WGZz/nesu-overview?orgId=1&refresh=10s&from=now-30m&to=now&var-system=All
      <br/>
      <br/>
-  5) You're done! 🎊 🎉 🎈
+  3) You're done! 🎊 🎉 🎈
 
 
 
 ###  :bulb: A Quick Guide for [docker-compose](https://docs.docker.com/compose/)
-
-## 2) Permissioning New Node
