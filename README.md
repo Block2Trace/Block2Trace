@@ -14,7 +14,7 @@ The following doc will guide you on how to set up a Block2Trace node, by followi
 
 If a node wants to be removed, you can etc.
 
-<br/>
+a <br/>
 <!--
 **Block2Trace/Block2Trace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
