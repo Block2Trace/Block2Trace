@@ -29,7 +29,7 @@ The following process explains the installation for a regular node:
     ```
     <br/>
     <br/>
-  3) Execute the following command:
+    3) Execute the following command:
      <br/>
      <br/>
      - ```
