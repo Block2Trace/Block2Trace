@@ -35,7 +35,7 @@ The following process explains the installation for a regular node:
   The command runs the service in the background, and you can check its activity by running:
   5) You're done!
 
-###  :bulb: A Quick Guide for [docker compose](https://docs.docker.com/compose/)
+###  :bulb: A Quick Guide for [docker-compose](https://docs.docker.com/compose/)
 
 ## 2) Permissioning New Node
 <!--
