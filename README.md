@@ -30,25 +30,11 @@ The following process explains the installation for a regular node:
     <br/>
     <br/>
   3) Edit the .env file and modify the lines with:
-  4) Edit the docker-compose.yml and make your own changes
-  5) In the root directory of the repository (where the file docker-compose.yml exists) run:
+  4) Edit the `docker-compose.yml` and make your own changes
+  5) In the root directory of the repository (where the file `docker-compose.yml` exists) run:
   The command runs the service in the background, and you can check its activity by running:
   5) You're done!
 
 ###  :bulb: A Quick Guide for [docker-compose](https://docs.docker.com/compose/)
 
 ## 2) Permissioning New Node
-<!--
-**Block2Trace/Block2Trace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
