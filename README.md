@@ -37,7 +37,7 @@ The following process explains the installation for a regular node:
      ```
      <br/>
      <br/>
-     This will run the process in the background. You can check the activity on the following list of endpoints and services:
+     This will run the process in the background. You can check the services activities on the following list of endpoints:
      <br/>
      <br/>
      - **JSON-RPC HTTP service endpoint**: http://localhost:8545
