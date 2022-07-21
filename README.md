@@ -12,7 +12,7 @@ The following doc will guide you on how to set up a Block2Trace node, by followi
 1. Installation & configuration
 2. Getting permissions
 
-# :bulb: Check the documentation of [Web3.js](https://web3js.readthedocs.io/en/v1.7.4/), [EthersJS](https://docs.ethers.io/v5/)!
+### :bulb: Check the documentation of [Web3.js](https://web3js.readthedocs.io/en/v1.7.4/), [EthersJS](https://docs.ethers.io/v5/)!
 
 ## 1) Installation
 The following process explains the installation for a regular node:
