@@ -1,4 +1,4 @@
-### Block2Trace Node Setup for Block2Trace Network
+# Block2Trace Node Setup for Block2Trace Network
 Block2Trace Network is a [Hyperledger Besu](https://www.hyperledger.org/use/besu) private network that uses the [Clique](https://eips.ethereum.org/EIPS/eip-225) consensus algorithm.
 
 [Clique](https://eips.ethereum.org/EIPS/eip-225) is a proof-of-authority consensus protocol, which scheme is based on the idea that blocks may only be minted by trusted signers. This consensus was implemented in response to attaks the made by malicious nodes belonging to the proof-of-work networks ([PoW consensus](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/)).
@@ -35,7 +35,7 @@ The following process explains the installation for a regular node:
   The command runs the service in the background, and you can check its activity by running:
   5) You're done!
 
-#  :bulb: A Quick Guide for [docker compose](https://docs.docker.com/compose/)
+###  :bulb: A Quick Guide for [docker compose](https://docs.docker.com/compose/)
 
 ## 2) Permissioning New Node
 <!--
