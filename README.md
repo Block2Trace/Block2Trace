@@ -1,6 +1,9 @@
-### Hi there 👋
-## Hi there
-# Hi there
+### Block2Trace Node Setup for Block2Trace Network
+Block2Trace Network is a [Hyperledger Besu](https://www.hyperledger.org/use/besu) private network that uses the [Clique](https://eips.ethereum.org/EIPS/eip-225) consensus algorithm.
+
+[Clique](https://eips.ethereum.org/EIPS/eip-225) is a proof-of-authority consensus protocol, which scheme is based on the idea that blocks may only be minted by trusted signers. This consensus was implemented in response to attaks the made by malicious nodes belonging to the proof-of-work networks ([PoW consensus](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/)).
+
+Block2Trace Network has 3 types of nodes:
 
 <!--
 **Block2Trace/Block2Trace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
