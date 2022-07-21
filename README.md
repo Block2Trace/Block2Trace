@@ -36,6 +36,8 @@ The following process explains the installation for a regular node:
   5) You're done!
 
 A Quick Guide for [docker compose](https://docs.docker.com/compose/)
+
+## 2) Permissioning New Node
 <!--
 **Block2Trace/Block2Trace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
