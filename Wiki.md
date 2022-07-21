@@ -29,6 +29,8 @@ At the beginning the network will be conformed by 4 Validators , one RPC Node an
 
 Next we will have the Diagram Architecture as shown below to have a better understanding of the system.
 
+![System Architecture](https://bafkreic4hlcgqtpiixhf33ubado5texsfq6lvytz2stwftdc2sbv776eru.ipfs.nftstorage.link/)
+
 
 **Conensus Algorithm**  The besu based Quorum uses IBFT2 consensus mechanism 
 
