@@ -29,13 +29,11 @@ The following process explains the installation for a regular node:
     ```
     <br/>
     <br/>
-    3) Execute the following command:
-     <br/>
+   3) Execute the following command:
      <br/>
      - ```
      docker run nodeName
      ```
-     <br/>
      <br/>
   5) You're done! 🎊 🎉 🎈
 
