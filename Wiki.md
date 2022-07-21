@@ -23,7 +23,7 @@ At the beginning the network will be conformed by 4 Validators and one RPC Node 
 
     -Alethio Lite Explorer to explore blockchain data at the block , transaction and account level 
 
-    -Metric Monitoring via Prometheus and Grafana to give you insigths into how the chain is progressing (Note: This only works with besu other chains          requires other requiremnts to it to work )
+    -Metric Monitoring via Prometheus and Grafana to give you insigths into how the chain is progressing (Note:This only works with besu other chains    requires other requiremnts to it to work )
 
     -Optional log monitoring .- This can be execute when the a node that will run receive the params -e
 
