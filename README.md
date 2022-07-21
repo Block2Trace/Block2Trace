@@ -28,6 +28,7 @@ The following process explains the installation for a regular node:
     cd Block2Trace
     ```
     <br/>
+    <br/>
   3) Edit the .env file and modify the lines with:
   4) Edit the docker-compose.yml and make your own changes
   5) In the root directory of the repository (where the file docker-compose.yml exists) run:
