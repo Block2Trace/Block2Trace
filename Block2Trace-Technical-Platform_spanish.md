@@ -77,7 +77,7 @@
             - 8.6.4.1 [Soporte de Supervisión](#7641-supervisory-support)
             - 8.6.4.2 [Soporte de Auditoría](#7642-audit-support)
             - 8.6.4.3 [Controles de Gobernanza](#7643-governance-controls)
-            - 8.6.4.4 [Gestión de Pol](#7644-policy-management)
+            - 8.6.4.4 [Gestión de Políticas](#7644-policy-management)
 
 <!-- /TOC -->
 
