@@ -12,6 +12,7 @@
     - 3.1 [The problem of Scalability of Public-Permissioned blockchains](#31-the-problem-of-scalability-of-public-permissioned-blockchains)
     - 3.2 [The problem of Transaction Costs: High and Volatile](#32-the-problem-of-transaction-costs--high-and-volatile)
     - 3.3 [The problem of Privacy](#33-the-problem-of-privacy)
+                <br/>
                 - 3.3.1 [Confidentiality of Data](#331-confidentiality-of-data)
                 - 3.3.2 [Privacy of Transactional Activity](#332-privacy-of-transactional-activity)
 4. [THE PRIVATE CONSORTIUM BLOCKCHAIN NETWORKS](#4-the-private-consortium-blockchain-networks)
