@@ -654,5 +654,5 @@ Audit support function is mainly used to achieve audit internal control, respons
 #### 8.6.4.3. Controles de Governanza
 Controls communications of policies and notifications of policy violations and escalation processes for exceptions and grievances.
 
-#### 8.6.4.4. Gestión de Pol
+#### 8.6.4.4. Gestión de Políticas
 Policy management function provides definition, update and access policies for DLT systems and their management. These policies include DLT systems itself and its business, technology, security, privacy, and authentication. Management of policies at all levels of the distributed systems
