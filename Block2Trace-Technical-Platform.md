@@ -299,7 +299,7 @@ This is in order to minimize the risks of using software that will stop being de
 ## 7.3. Alastria should be based on general-purpose and multi-industry platforms
 Alastria has to support all the different use cases that can appear in a multi-industry country blockchain network, so Alastria will avoid any software which is specific to one industry or is too specialised. That means that there may be some very specialized use cases that are not supported directly by Alastria, at least at the beginning. The challenge here is to be able to interoperate between different blockchain networks. One possibility being actively investigated is the ability to run in parallel two (or more) blockchain networks with different technology, to be able to support a wider spectrum of use cases.
 
-## 7.4. Alastria will allow and facilitate regulatory compliance by the members, in particular:
+## 7.4. Block2Trace will allow and facilitate regulatory compliance by the members, in particular:
 (The list is in Spanish because we are currently focusing on the specific problems of Spanish regulation).
 
 1. Reglamento General de Protección de Datos (RGPD)
