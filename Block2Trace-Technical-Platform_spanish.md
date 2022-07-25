@@ -77,7 +77,7 @@
             - 8.6.4.1 [Soporte de Supervisión](#7641-supervisory-support)
             - 8.6.4.2 [Soporte de Auditoría](#7642-audit-support)
             - 8.6.4.3 [Controles de Gobernanza](#7643-governance-controls)
-            - 8.6.4.4 [Gesti](#7644-policy-management)
+            - 8.6.4.4 [Gestión de Pol](#7644-policy-management)
 
 <!-- /TOC -->
 
@@ -514,28 +514,28 @@ Administration Applications are applications which run separately from the DLT s
 ## 8.5. Non-DLT Systems Layer
 The non-DLT systems layer contains systems outside the DLT system that a DLT system communicates with in order to accomplish its business goals. This includes:
 
-### 8.5.1. DLT Oracles
+### 8.5.1. Oráculos DLT
 A DLT oracle is a trusted service designed to supply external data to a DLT system. It is out of scope for this document to describe in detail the operation and integration of oracles in the DLT system.
 
-### 8.5.2. Non DLT Applications
+### 8.5.2. Aplicaciones No-DLT
 Non-DLT applications are any applications outside the DLT system with which the DLT system communicates, either to send or receive data. An example is a Core Banking System connected to a Smart Contract that tokenizes fiat money.
 
-### 8.5.3. Off Ledger Data
+### 8.5.3. Datos Off Ledger
 Off-Ledger data is any data store outside the DLT system that can hold data that relates to the DLT system in some way. An example might be a database holding additional data relating to transactions held on the ledger. Off-Ledger Data is a critical component needed to implement proper data privacy functions.
 
-## 8.6. Cross-layer functions
+## 8.6. Funciones de Capa-Cruzada
 The cross-layer functions support the components across all the functional layers. For example, security is needed for user layer, API layer and DLT Platform layer, therefore security is a cross-layer functional component. Cross layer functions can support other cross layer functions as well. The functions are grouped into Development, Operations & Management, Security, and Governance & Compliance categories. The cross-layer functions are depicted in the following figure and are described in more detail in the following sections.
 
 ![Reference architecture of a DLT](/assets/Reference%20architecture%20of%20a%20DLT%20-%20cross%20layer.jpg)
 <p align="center"><b>Fig4. - Cross layer functions in a blockchain.</b></p>
 
-### 8.6.1. Development
+### 8.6.1. Desarrollo
 Development functional components support the activities of DLT system developer, including application and system implementation development, build management and test management.
 
-#### 8.6.1.1. IDE (Integrated Development Environment)
+#### 8.6.1.1. IDE (Entorno de Desarrollo Integrado)
 IDE functional components provide tools for the development of smart contracts, DLT and related applications, including development of support modules. IDE functional components support the use of capabilities provided by DLT operator, including access via APIs, node management and event distribution capabilities. IDEs enable use of functions in the API of the DLT platform layer, as well as the infrastructure layer. The IDE component supports the generation of configuration-related configuration metadata for the development of the smart contract; supports the preparation or generation of smart contracts configuration scripts and components used by the operators and nodes operating systems.
 
-#### 8.6.1.2. Build Management
+#### 8.6.1.2. Gestión de Compilado
 Build management functional components are used to build publishable software packages. The package can be submitted to DLT node owner or operator and deployed in production environment. It contains both the software for smart contract implementation and the configuration metadata and configuration scripts. Build management features include:
 
 * support for automated building software packages function
@@ -544,7 +544,7 @@ Build management functional components are used to build publishable software pa
 * implement audit during build process
 * build system that provides multi-language support
 
-#### 8.6.1.3. Test Management
+#### 8.6.1.3. Gestión de Prueba
 Test management functional components support testing of all functions of DLT systems. The components should generate test reports and provide them with system implementation software to the node owner or operator. In general, test is performed in a special independent test environment, which should be a simulation of production environment. Without affecting production, test work can also be carried out in a production environment. A test environment should be provided by DLT operator or partner.
 
 Test management functional components should include at least the following functions:
@@ -556,7 +556,7 @@ Test management functional components should include at least the following func
 * support testing process automation
 * provide test case library, test database management functions
 
-### 8.6.2. Management and Operations
+### 8.6.2. Gestión y Operaciones
 Management and Operations functional components include a set of operational-related management functions, which are used to manage and control DLT capabilities provided to user. Management and Operations functional components include:
 
 * service directory
@@ -567,25 +567,25 @@ Management and Operations functional components include a set of operational-rel
 * monitoring
 * update and version management
 
-#### 8.6.2.1. Service directory
+#### 8.6.2.1. Directorio de Servicios
 Service directory function provides a list of all DLT capabilities, smart contracts, services and/or APIs of a particular DLT system, operator, or node. The list includes / refers to technical information about deployment, provision and operation of DLT smart contract, service or API.
 
-#### 8.6.2.2. Incident Management
+#### 8.6.2.2. Gestión de Incidentes
 Incident management function provides the ability to capture incident and problem reports, and manage them through analysis. Incident and problems can be detected and reported by DLT node or DLT operators or DLT user.
 
-#### 8.6.2.3. Delivery Management
+#### 8.6.2.3. Gestión de Entrega
 Delivery management function provides the management function of DLT system delivery, which is provided in the forms of system implementation and access endpoint. At the same time, this function provides necessary workflows to ensure the elements are provided in correct order
 
-#### 8.6.2.4. Node Management
+#### 8.6.2.4. Gestión de Nodos
 Node management function provides management of the DLT platform node implementation including performance and availability usually on one logical or virtual system
 
-#### 8.6.2.5. Ledger Management
+#### 8.6.2.5. Gestión de Ledger
 Ledger Management function provides management of the distributed ledger
 
-#### 8.6.2.6. DLT System Management
+#### 8.6.2.6. Gestión de Sistemas DLT
 DLT System Management function provides management of DLT systems especially for performance and availability
 
-#### 8.6.2.7. Monitoring
+#### 8.6.2.7. Monitoreo
 Monitoring functions include monitoring, analytics, and automation tools that are used to respond to some changes in the platform and environment. This could include responding to changes in the required system capacity and error analytics.
 
 Alastria has implemented a first version of a distributed monitoring tool that reports on different parameters of each node of the network. For example, the monitoring tool checks for compliance to the permissioning policies of all nodes in the network.
@@ -594,10 +594,10 @@ Alastria has implemented a first version of a distributed monitoring tool that r
 |----------|----------------------------------------------------------|
 |MONIT_001 | Validate (or otherwise suggest another option) that the current network monitoring tool implemented in Alastria can be used for the short term and suggest improvements to make it better.                                       |
 
-#### 8.6.2.8. Update and Version Management
+#### 8.6.2.8. Gestión de Actualización y Versionamiento
 Update and version management functions include management of code bases and implementation artifacts for the nodes and DLT systems
 
-### 8.6.3. Security capabilities
+### 8.6.3. Capacidades de Seguridad
 The function of security layer is mainly to provide security attributes such as authentication, authorization, confidentiality, integrity and accessibility for all the functional layers of the DLT RA and the protocols between nodes. These security features are widely used in user and node identity authentication, transaction protocol design, chained data organization, communication channel encryption, and application data access control. The Security layer includes the following functions:
 
 * authentication and identity management
@@ -605,27 +605,27 @@ The function of security layer is mainly to provide security attributes such as 
 * access management
 * PII protection
 
-#### 8.6.3.1. Authentication and Identity Management
+#### 8.6.3.1. Gestión de Autenticación e Identidad
 The authentication and identity management functions provide user’s identity verification process to determine whether the user has access and usage rights to a resource, thereby enabling the DLT system access control policy to be performed reliably and efficiently. The authentication and identity management functional components include the following features:
 
 * support the establishment of identity management strategy, determine whether certification is based on user-known information, user-owned information or user's unique physical characteristics
 * support the use of specific identity authentication methods to support identity management policies
 * support the establishment of user identity management mechanisms based on identity authentication
 
-#### 8.6.3.2. Security Policy Management
+#### 8.6.3.2. Gestión de Políticas de Seguridad
 The security policy management functions provide permission for users to access to or use a resource, and develop a set of rules that must be followed by all security-related activities in a secure area. Security policy management functional components include
 
 * function to authorize users to access and use resource
 * function to set authorization and security rules
 * functions that authorization and security rules are controlled by security authority
 
-#### 8.6.3.3. Access Management
+#### 8.6.3.3. Gestión de Acceso
 The access management component is used to provide control over access to specific capabilities of the DLT system. This can include access controls applied to the various interfaces in the API layer.
 
-#### 8.6.3.4. PII Protection
+#### 8.6.3.4. Protección PII
 The PII protection component provides capabilities to assist the provision of appropriate protection to any PII handled by the DLT system. This can include identification and classification of the PII, the application of encryption, the management of lifecycle for PII (including early deletion of any PII no longer required), providing access to PII for data subjects
 
-### 8.6.4. Governance and Compliance
+### 8.6.4. Governanza y Cumplimiento
 Governance and Compliance functional components enable the DLT system to conform to governed and auditable characteristics based on governance and compliance requirements of DLT node owners and operators. Governance can help prevent DLT networks from being outside of laws, regulations and industry rules (like becoming the carrier of money laundering, illegal financing or criminal transactions). They include the following functions:
 
 * supervisory support
@@ -633,7 +633,7 @@ Governance and Compliance functional components enable the DLT system to conform
 * governance control
 * policy management
 
-#### 8.6.4.1. Supervisory Support
+#### 8.6.4.1. Soporte de Supervisión
 Supervisory support function is mainly used to meet the requirements of supervisory bodies for environment, system, availability, disaster recovery, system operation and maintenance, and compliance of supported functions in DLT system. Due to differences between industry supervisors and supervisory methods, the depth and breadth of functions involved are different. Specific needs include:
 
 * should have a sound and complete supervisory governance system. Through pre-admission control, in-process authority control, ex post facto and other technical means to achieve supervisory objectives, ensure that records cannot be tampered with, be traceable and auditable.
@@ -643,7 +643,7 @@ Supervisory support function is mainly used to meet the requirements of supervis
 * support rules for the organization or management personnel to conduct supervisory governance in accordance with laws, administrative regulations, departmental rules and regulations, encourage full use of smart contracts and other technologies to effectively support intelligent supervisory operation, and provide supervisory rules for automated implementation
 * save data and evidence relating to systems, resources and performance. These data and evidence include records and logs of all participants' activities and operating environmental conditions, which need to be collected and maintained in a safe manner
 
-#### 8.6.4.2. Audit Support
+#### 8.6.4.2. Soporte de Auditoría
 Audit support function is mainly used to achieve audit internal control, responsibility identification, event traceability and other requirements of DLT system, which needs effective technical means together with business sector standards for accurate audit management. Specific requirements include:
 
 * enable conducting pre-audit, concurrent audit and post audit on DLT activities, establish audit indicators such as violation of discipline audit, internal control system audit, performance audit and other contents
@@ -651,8 +651,8 @@ Audit support function is mainly used to achieve audit internal control, respons
 * enable docking and interactions between DLT networks and other related systems, improve audit efficiency and reliability of audit results
 * enable data and evidence related to audit activities. The data and evidence include but are not limited to records and logs of activities and operating environment conditions of all participants in DLT, audit view record of the auditor, audit processes and results information, and avoid leakage of audit information
 
-#### 8.6.4.3. Governance Controls
+#### 8.6.4.3. Controles de Governanza
 Controls communications of policies and notifications of policy violations and escalation processes for exceptions and grievances.
 
-#### 8.6.4.4. Policy Management
+#### 8.6.4.4. Gestión de Pol
 Policy management function provides definition, update and access policies for DLT systems and their management. These policies include DLT systems itself and its business, technology, security, privacy, and authentication. Management of policies at all levels of the distributed systems
