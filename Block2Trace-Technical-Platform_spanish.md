@@ -7,7 +7,7 @@
     - [Requerimientos y desafíos para una red blockchain de un país](#requerimientos-y-desafíos-para-una-red-blockchain-de-un-país)
 1. [Objetivo](#1-objetivo)
 2. [Introducción](#2-introducción)
-3. [Características generales de las principales tecnologías blockchain](#3-características-generales-de-las-principales-tecnologías blockchain)
+3. [Características generales de las principales tecnologías blockchain](#3-características-generales-de-las-principales-tecnologías-blockchain)
 4. [Las redes blockchain públicas sin permisos](#4-las-redes-blockchain-públicas-sin-permisos)
     - 4.1 [El problema de la escalabilidad de las cadenas de bloques con permiso público](#41-el-problema-de-la-escalabilidad-de-las-cadenas-de-bloques-con-permiso-público)
     - 4.2 [El problema de los Costos de Transacción: Altos y Volátiles](#42-el-problema-de-los-costos-de-transacción:-altos-y-volátiles)
