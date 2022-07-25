@@ -10,7 +10,7 @@
 3. [Características generales de las principales tecnologías blockchain](#3-características-generales-de-las-principales-tecnologías-blockchain)
 4. [Las redes blockchain públicas sin permisos](#4-las-redes-blockchain-públicas-sin-permisos)
     - 4.1 [El problema de la escalabilidad de las cadenas de bloques con permiso público](#41-el-problema-de-la-escalabilidad-de-las-cadenas-de-bloques-con-permiso-público)
-    - 4.2 [El problema de los Costos de Transacción: Altos y Volátiles](#42-el-problema-de-los-costos-de-transacción:-altos-y-volátiles)
+    - 4.2 [El problema de los Costos de Transacción Altos y Volátiles](#42-el-problema-de-los-costos-de-transacción-altos-y-volátiles)
     - 4.3 [El problema de la Privacidad](#43-el-problema-de-la-privacidad)
         - 4.3.1 [Confidencialidad de Datos](#431-confidencialidad-de-datos)
         - 4.3.2 [Privacidad de Actividades Transaccionales](#432-privacidad-de-actividades-transaccionales)
