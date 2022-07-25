@@ -23,7 +23,7 @@
     - 7.1 [Basado en OpenSource de amplia aceptación en el mercado](#71-basado-en-opensource-de-amplia-aceptación-en-el-mercado)
     - 7.2 [El ecosistema de usuarios del software debe ser lo más amplio posible](#72-el-ecosistema-de-usuarios-del-software-debe-ser-lo-más-amplio-posible)
     - 7.3 [Block2Trace debe basarse en plataformas multisectoriales y de uso general](#73-block2trace-debe-basarse-en-plataformas-multisectoriales-y-de-uso-general)
-    - 7.4 [Block2Trace permitirá y facilitará el cumplimiento normativo por parte de los miembros, en particular:](#74-block2trace-permitirá-y-facilitará-el-cumplimiento-normativo-por-parte-de-los-miembros,-en-particular:)
+    - 7.4 [Block2Trace permitirá y facilitará el cumplimiento normativo por parte de los miembros, en particular](#74-block2trace-permitirá-y-facilitará-el-cumplimiento-normativo-por-parte-de-los-miembros,-en-particular)
 8. [ARQUITECTURA DE REFERENCIA DE UNA BLOCKCHAIN](#8-arquitectura-de-referencia-de-una-blockchain)
     - 8.1 [Capa de infraestructura](#81-capa-de-infraestructura)
         - 8.1.1 [Almacenamiento de Datos](#811-almacenamiento-de-datos)
