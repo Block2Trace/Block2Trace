@@ -4,7 +4,7 @@
 <!-- TOC -->
 
 - [Plataforma técnica básica de Block2Trace](#plataforma-técnica-básica-de-block2trace)
-    - [Requerimientos y desafíos para una red blockchain de un país](#requirements-and-challenges-for-a-country-blockchain-network)
+    - [Requerimientos y desafíos para una red blockchain de un país](#requerimientos-y-desafíos-para-una-red-blockchain-de-un-país)
 1. [Objetivo](#1-objective)
 2. [Introducción](#2-introduction)
 3. [Características generales de las principales tecnologías blockchain](#3-general-characteristics-of-the-main-blockchain-technologies)
