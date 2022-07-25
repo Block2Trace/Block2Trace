@@ -27,7 +27,7 @@
 8. [ARQUITECTURA DE REFERENCIA DE UNA BLOCKCHAIN](#7-reference-architecture-of-a-blockchain)
     - 8.1 [Capa de infraestructura](#71-infrastructure-layer)
         - 8.1.1 [Almacenamiento de Datos](#711-data-storage)
-        - 8.1.2 [ENtorno de tiempo de ejecución (cómputo)](#712-runtime-environment-compute)
+        - 8.1.2 [Entorno de tiempo de ejecución (cómputo)](#712-runtime-environment-compute)
         - 8.1.3 [CRedes de comunicación](#713-communication-networks)
     - 8.2 [Capa de plataforma DLT](#72-dlt-platform-layer)
         - 8.2.1 [Tiempo de Ejecución Seguro](#721-secure-runtime)
