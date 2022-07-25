@@ -18,7 +18,7 @@
     - 5.1 [Una "compensación de confianza" diferente](#51-una-"compensación-de-confianza"-diferente)
     - 5.2 [Un modelo de incentivación diferente para los nodos operativos](#52-un-modelo-de-incentivación-diferente-para-los-nodos-operativos)
     - 5.3 [Un modelo diferente para la ejecución de transacciones](#53-un-modelo-diferente-para-la-ejecución-de-transacciones)
-6. [BLOCK2TRACE: UNA BLOCKCHAIN CON PERMISO PÚBLICO](#6-block2trace:-una-blockchain-con-permiso-público)
+6. [BLOCK2TRACE UNA BLOCKCHAIN CON PERMISO PÚBLICO](#6-block2trace-una-blockchain-con-permiso-público)
 7. [REQUERIMIENTOS GENERALES SOBRE EL SOFTWARE](#7-requerimientos-generales-sobre-el-software)
     - 7.1 [Basado en OpenSource de amplia aceptación en el mercado](#71-basado-en-opensource-de-amplia-aceptación-en-el-mercado)
     - 7.2 [El ecosistema de usuarios del software debe ser lo más amplio posible](#72-el-ecosistema-de-usuarios-del-software-debe-ser-lo-más-amplio-posible)
