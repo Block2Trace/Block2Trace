@@ -3,7 +3,7 @@
 
 <!-- TOC -->
 
-- [Plataforma técnica básica de Block2Trace](#plataforma-t)
+- [Plataforma técnica básica de Block2Trace](#plataforma-técnica-básica-de-block2trace)
     - [Requerimientos y desafíos para una red blockchain de un país](#requirements-and-challenges-for-a-country-blockchain-network)
 1. [Objetivo](#1-objective)
 2. [Introducción](#2-introduction)
