@@ -81,7 +81,7 @@
 
 <!-- /TOC -->
 
-# 1. Objective
+# 1. Objetivo
 This document describes the requirements and challenges for a country blockchain network like Alastria. While the document tries to be as technology-agnostic as possible, there are subjects where we have to focus on a given technology, and when this is the case, we discuss the initial implementation using Quorum. However, the intention is to include specific analyses for other technologies like Hyperledger.  This document is live and continuously evolving, describing the current situation of the technology with respect to the requirements and the challenges that have to be solved.
 
 # 2. Introduction
