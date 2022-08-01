@@ -626,12 +626,12 @@ The access management component is used to provide control over access to specif
 The PII protection component provides capabilities to assist the provision of appropriate protection to any PII handled by the DLT system. This can include identification and classification of the PII, the application of encryption, the management of lifecycle for PII (including early deletion of any PII no longer required), providing access to PII for data subjects
 
 ### 8.6.4. Governanza y Cumplimiento
-Governance and Compliance functional components enable the DLT system to conform to governed and auditable characteristics based on governance and compliance requirements of DLT node owners and operators. Governance can help prevent DLT networks from being outside of laws, regulations and industry rules (like becoming the carrier of money laundering, illegal financing or criminal transactions). They include the following functions:
+Los componentes funcionales de Governanza y Cumplimiento le permiten al sistema DLR gobernar y auditar características basadas en los requerimientos de governanza y cumplimiento de los dueños y operadores de un nodo DLT. La Governanza puede ayudar a prevenir que las redes DLT se encuentren fuera del marco de las leyes, regulaciones y normas de la industria (como convertirse en la portadora de lavado de dinero, financiamientos ilegales o transacciones criminales). Éstos incluyen las siguientes funciones:
 
-* supervisory support
-* audit support
-* governance control
-* policy management
+* soporte de supervisión
+* soporte de auditoría
+* control de governanza
+* gestión de políticas
 
 #### 8.6.4.1. Soporte de Supervisión
 Supervisory support function is mainly used to meet the requirements of supervisory bodies for environment, system, availability, disaster recovery, system operation and maintenance, and compliance of supported functions in DLT system. Due to differences between industry supervisors and supervisory methods, the depth and breadth of functions involved are different. Specific needs include:
