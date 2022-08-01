@@ -512,118 +512,121 @@ User Applications are applications which run separately from the DLT systems tha
 Administration Applications are applications which run separately from the DLT systems that acts as a client to the DLT system, used by administrators supporting capabilities to maintain and/or update applications and systems.
 
 ## 8.5. Capa de Sistemas No-DLT
-The non-DLT systems layer contains systems outside the DLT system that a DLT system communicates with in order to accomplish its business goals. This includes:
+La capa de sistemas no DLT contiene sistemas fuera del sistema DLT con los que se comunica un sistema DLT para lograr sus objetivos comerciales. Esto incluye:
+
+
 
 ### 8.5.1. Oráculo DLT
-A DLT oracle is a trusted service designed to supply external data to a DLT system. It is out of scope for this document to describe in detail the operation and integration of oracles in the DLT system.
+Un oráculo DLT es un servicio de confianza diseñado para suministrar datos externos a un sistema DLT. Está fuera del alcance de este documento describir en detalle el funcionamiento y la integración de los oráculos en el sistema DLT.
 
 ### 8.5.2. Aplicaciones No-DLT
-Non-DLT applications are any applications outside the DLT system with which the DLT system communicates, either to send or receive data. An example is a Core Banking System connected to a Smart Contract that tokenizes fiat money.
+Las aplicaciones que no son DLT son aplicaciones fuera del sistema DLT con las que el sistema DLT se comunica, ya sea para enviar o recibir datos. Un ejemplo es un sistema bancario central conectado a un contrato inteligente que tokeniza el dinero fiduciario.
 
 ### 8.5.3. Datos Off Ledger
-Off-Ledger data is any data store outside the DLT system that can hold data that relates to the DLT system in some way. An example might be a database holding additional data relating to transactions held on the ledger. Off-Ledger Data is a critical component needed to implement proper data privacy functions.
+Los datos Off-Ledger son cualquier almacenamiento de datos fuera del sistema DLT que puede contener datos relacionados con el sistema DLT de alguna manera. Un ejemplo podría ser una base de datos que contenga datos adicionales relacionados con transacciones mantenidas en el Off-Ledger. Los datos Off-Ledger son un componente crítico necesario para implementar funciones adecuadas de privacidad de datos.
 
 ## 8.6. Funciones de Capa-Cruzada
-The cross-layer functions support the components across all the functional layers. For example, security is needed for user layer, API layer and DLT Platform layer, therefore security is a cross-layer functional component. Cross layer functions can support other cross layer functions as well. The functions are grouped into Development, Operations & Management, Security, and Governance & Compliance categories. The cross-layer functions are depicted in the following figure and are described in more detail in the following sections.
+Las funciones de capas cruzadas admiten los componentes en todas las capas funcionales. Por ejemplo, la seguridad es necesaria para la capa de usuario, la capa API y la capa de plataforma DLT, por lo tanto, la seguridad es un componente funcional entre capas. Las funciones de capa cruzada también pueden admitir otras funciones de capa cruzada. Las funciones se agrupan en las categorías de Desarrollo, Operaciones y Gestión, Seguridad y Gobernanza y Cumplimiento. Las funciones de capas cruzadas se representan en la siguiente figura y se describen con más detalle en las siguientes secciones.
 
 ![Reference architecture of a DLT](/assets/Reference%20architecture%20of%20a%20DLT%20-%20cross%20layer.jpg)
 <p align="center"><b>Fig4. - Cross layer functions in a blockchain.</b></p>
 
 ### 8.6.1. Desarrollo
-Development functional components support the activities of DLT system developer, including application and system implementation development, build management and test management.
+Los componentes funcionales de desarrollo respaldan las actividades del desarrollador del sistema DLT, incluido el desarrollo de implementación de aplicaciones y sistemas, la gestión de compilación y la gestión de pruebas.
+
 
 #### 8.6.1.1. IDE (Entorno de Desarrollo Integrado)
-IDE functional components provide tools for the development of smart contracts, DLT and related applications, including development of support modules. IDE functional components support the use of capabilities provided by DLT operator, including access via APIs, node management and event distribution capabilities. IDEs enable use of functions in the API of the DLT platform layer, as well as the infrastructure layer. The IDE component supports the generation of configuration-related configuration metadata for the development of the smart contract; supports the preparation or generation of smart contracts configuration scripts and components used by the operators and nodes operating systems.
+Los componentes funcionales de IDE brindan herramientas para el desarrollo de contratos inteligentes, DLT y aplicaciones relacionadas, incluido el desarrollo de módulos de soporte. Los componentes funcionales de IDE admiten el uso de capacidades proporcionadas por el operador DLT, incluido el acceso a través de API, la gestión de nodos y las capacidades de distribución de eventos. Los IDE permiten el uso de funciones en la API de la capa de la plataforma DLT, así como la capa de infraestructura. El componente IDE admite la generación de metadatos de configuración relacionados con la configuración para el desarrollo del contrato inteligente; admite la preparación o generación de scripts de configuración de contratos inteligentes y componentes utilizados por los sistemas operativos de los operadores y nodos.
 
 #### 8.6.1.2. Gestión de Compilado
-Build management functional components are used to build publishable software packages. The package can be submitted to DLT node owner or operator and deployed in production environment. It contains both the software for smart contract implementation and the configuration metadata and configuration scripts. Build management features include:
+Los componentes funcionales de gestión de compilación se utilizan para crear paquetes de software publicables. El paquete puede enviarse al propietario u operador del nodo DLT e implementarse en un entorno de producción. Contiene tanto el software para la implementación de contratos inteligentes como los metadatos de configuración y los scripts de configuración. Las características de gestión de compilación incluyen:
 
-* support for automated building software packages function
-* provide automated compilation function
-* provide an error message when an error occurs during the build process
-* implement audit during build process
-* build system that provides multi-language support
+* soporte para la función de paquetes de software de construcción automatizada
+* porporcionar una función de compilación automatizada
+* proporcionar un mensaje de error cuando se produzca un error durante el proceso de compilación
+* implementar la auditoría durante el proceso de construcción
+* sistema de compilación que proporciona soporte en varios idiomas
 
 #### 8.6.1.3. Gestión de Prueba
-Test management functional components support testing of all functions of DLT systems. The components should generate test reports and provide them with system implementation software to the node owner or operator. In general, test is performed in a special independent test environment, which should be a simulation of production environment. Without affecting production, test work can also be carried out in a production environment. A test environment should be provided by DLT operator or partner.
+Los componentes funcionales de gestión de pruebas admiten las pruebas de todas las funciones de los sistemas DLT. Los componentes deben generar informes de prueba y proporcionarles el software de implementación del sistema al propietario u operador del nodo. En general, la prueba se realiza en un entorno de prueba independiente especial, que debe ser una simulación del entorno de producción. Sin afectar la producción, el trabajo de prueba también se puede realizar en un entorno de producción. EL operador o socio de DLT debe proporcionar un entorno de prueba.
 
-Test management functional components should include at least the following functions:
+Los componentes funcionales de gestión de pruebas deben incluir al menos las siguientes funciones:
 
-* test management components should support the management of test plans, test reports, test cases and so on
-* support automatic generation of test reports
-* when test is conducted under the integration of test environment and production environment
-* production environment should not be affected
-* support testing process automation
-* provide test case library, test database management functions
+* los componentes de gestión de pruebas deben admitir la gestión de planes de prueba, casos de prueba, etc
+* admite la generación automática de informes de prueba
+* cuando la prueba se realiza bajo la integración del entorno de prueba y el entorno de producción
+* el entorno de producción no debe verse afectado
+* dar soporte a la automatización del proceso de prueba
+* proporcionar biblioteca de casos de prueba, funciones de gesti
 
 ### 8.6.2. Gestión y Operaciones
-Management and Operations functional components include a set of operational-related management functions, which are used to manage and control DLT capabilities provided to user. Management and Operations functional components include:
+Los componentes funcionales de Gestión y Operaciones incluyen un conjunto de funciones de gestión relacionadas con las operaciones, que se utilizan para gestionar y controlar las capacidades DLT proporcionadas al usuario. Los componentes funcionales de Gestión y Operaciones incluyen:
 
-* service directory
-* incident management
-* delivery management
-* node management
-* ledger management
-* monitoring
-* update and version management
+* directorio de servicios
+* gestión de incidentes
+* gestión de entrega
+* gestión de nodos
+* gestión de ledger
+* monitoreo
+* gestión de actualización y versionamiento
 
 #### 8.6.2.1. Directorio de Servicios
-Service directory function provides a list of all DLT capabilities, smart contracts, services and/or APIs of a particular DLT system, operator, or node. The list includes / refers to technical information about deployment, provision and operation of DLT smart contract, service or API.
+La función de Directorio de Servicios proporciona una lista de todas las capacidades de DLT, contratos inteligentes, servicios y/o API de un sistema, operador o nodo de DLT en particular. La lista incluye/se refiere a información técnica sobre la implementación, provisión y operación del contrato inteligente DLT, servicio o API.
 
 #### 8.6.2.2. Gestión de Incidentes
-Incident management function provides the ability to capture incident and problem reports, and manage them through analysis. Incident and problems can be detected and reported by DLT node or DLT operators or DLT user.
+La función de Gestión de Incidentes brinda la capacidad de capturar informes de incidentes y problemas y administrarlos a través del análisis. Los incidentes y problemas pueden ser detectados e informados por el nodo DLT, los operadores DLT o el usuario DLT.
 
 #### 8.6.2.3. Gestión de Entrega
-Delivery management function provides the management function of DLT system delivery, which is provided in the forms of system implementation and access endpoint. At the same time, this function provides necessary workflows to ensure the elements are provided in correct order
+La función de Gestión de Entrega proporciona la función de gestión de entrega del sistema DLT, que se proporciona en forma de implementación del sistema y punto final de acceso. Al mismo tiempo, esta función porporciona los flujos de trabajo necesarios para garantizar que los elementos se proporcionen en el orden correcto.
 
 #### 8.6.2.4. Gestión de Nodos
-Node management function provides management of the DLT platform node implementation including performance and availability usually on one logical or virtual system
+La función de gestión de nodos proporciona la gestión de la implementación de nodos de la plataforma DLT, incluido el rendimiento y la disponibilidad, normalmente en un sistema lógico o virtual.
 
 #### 8.6.2.5. Gestión de Ledger
-Ledger Management function provides management of the distributed ledger
+La Gestión de Ledger provee el manejo del ledger distribuido.
 
 #### 8.6.2.6. Gestión de Sistemas DLT
-DLT System Management function provides management of DLT systems especially for performance and availability
+La función de Gestión de Sistemas DLT proporciona la gestión de los sistemas DLT especialmente para el rendimiento y la disponibilidad.
 
 #### 8.6.2.7. Monitoreo
-Monitoring functions include monitoring, analytics, and automation tools that are used to respond to some changes in the platform and environment. This could include responding to changes in the required system capacity and error analytics.
+Las funciones de monitoreo incluyen herramientas de monitoreo, análisis y automatización que se utilizan para responder a algunos cambios en la plataforma y el entorno. Esto podria incluir responder a cambios en la capacidad del sistema requerida y análisis de errores
 
-Alastria has implemented a first version of a distributed monitoring tool that reports on different parameters of each node of the network. For example, the monitoring tool checks for compliance to the permissioning policies of all nodes in the network.
+Block2Trace ha implementado una primera versiónd de una herramienta de monitorización distribuida que informa sobre diferentes parámetros de cada nodo de la red. Por ejemplo, la herramienta de monitoreo verifica el cumplimiento de las políticas de permisos de todos los nodos de la red.
 
-| Ref      | Requirement                                              |
-|----------|----------------------------------------------------------|
-|MONIT_001 | Validate (or otherwise suggest another option) that the current network monitoring tool implemented in Alastria can be used for the short term and suggest improvements to make it better.                                       |
+| Ref      | Requerimiento                                              |
+|----------|------------------------------------------------------------|
+|MONIT_001 | Validar (o en su defecto sugerir otra opción) que la actual herramienta de monitorización de red implementada en Block2Trace pueda ser utilizada a corto plazo y sugerir mejorar para mejorarla.                                      |
 
 #### 8.6.2.8. Gestión de Actualización y Versionamiento
-Update and version management functions include management of code bases and implementation artifacts for the nodes and DLT systems
+Las funciones de Gestión de Actualización y Versionamiento incluyen la gestión de bases de código y artefactos de implementación para los nodos y los sistemas DLT.
 
 ### 8.6.3. Capacidades de Seguridad
-The function of security layer is mainly to provide security attributes such as authentication, authorization, confidentiality, integrity and accessibility for all the functional layers of the DLT RA and the protocols between nodes. These security features are widely used in user and node identity authentication, transaction protocol design, chained data organization, communication channel encryption, and application data access control. The Security layer includes the following functions:
+La función de la capa de seguridad es principalmente proporcionar atributos de seguridad como autenticación, autorizarión, confidencialidad, integridad y accesibilidad para todas las capas funcionales del DLT RA y los protocolos entre nodos. Estas características de seguridad se utilizan ampliamente en la autenticación de identidad de usuarios y nodos, diseño de protocolos de transacciones, organización de datos encadenados, encriptacion de canales de comunicación y control de acceso a datos de aplicaciones. La capa de seguridad incluye las siguiente funciones:
 
-* authentication and identity management
-* security policy management
-* access management
-* PII protection
+* gestión de autenticación e identidad
+* gestión de políticas de seguridad
+* gestión de acceso
+* protección PII
 
 #### 8.6.3.1. Gestión de Autenticación e Identidad
-The authentication and identity management functions provide user’s identity verification process to determine whether the user has access and usage rights to a resource, thereby enabling the DLT system access control policy to be performed reliably and efficiently. The authentication and identity management functional components include the following features:
+Las funciones de Gestión de Autenticación e Identidad proporcionan un proceso de verificación de identidad del usuario para determinar si el usuario tiene acceso y derechos de uso a un recurso, lo que permite que la política de control de acceso al sistema DLT se realice de manera confiable y eficiente. Los componentes funcionales de Gestión de Autenticación de Identidad incluyen las siguientes características:
 
-* support the establishment of identity management strategy, determine whether certification is based on user-known information, user-owned information or user's unique physical characteristics
-* support the use of specific identity authentication methods to support identity management policies
-* support the establishment of user identity management mechanisms based on identity authentication
+* dar soporte al establecimiento de una estrategia de gestión de identidad, determinar si la certificación se basa en información conocida por el usuario, información apropiada por el usuario o características físicas únicas del usuario
+* dar soporte al uso de métodos de autenticación de identidad específicos para respaldar las políticas de gestión de identidad
+* dar soporte al establecimiento de mecanismos de gestión de la identidad de los usuarios basados en la autenticación de la identidad.
 
 #### 8.6.3.2. Gestión de Políticas de Seguridad
-The security policy management functions provide permission for users to access to or use a resource, and develop a set of rules that must be followed by all security-related activities in a secure area. Security policy management functional components include
+Las funciones de Gestión de Políticas de Seguridad brindan permiso para que los usuarios accedan a un recurso o lo utilicen, y desarrollan un conjunto de reglas que debn seguirse en todas la actividades relacionadas con la seguridad en un área segura. Los componentes funcionales de gestión de políticas de seguridad incluyen:
 
-* function to authorize users to access and use resource
-* function to set authorization and security rules
-* functions that authorization and security rules are controlled by security authority
+* función para autorizar a los usuarios a acceder y utilizar recursos
+* función para establecer reglas de autenticación y seguridad
+* función cuya autorizacióny reglas de seguridad se encuentran controladas po la autoridad de seguridad
 
 #### 8.6.3.3. Gestión de Acceso
-The access management component is used to provide control over access to specific capabilities of the DLT system. This can include access controls applied to the various interfaces in the API layer.
+El componente de gestión de acceso se utiliza para proporcionar control sobre el acceso a capacidades específicas del sistema DLT. Esto puede incluir controles de acceso aplicados a las diversas interfaces en la capa API.
 
 #### 8.6.3.4. Protección PII
-The PII protection component provides capabilities to assist the provision of appropriate protection to any PII handled by the DLT system. This can include identification and classification of the PII, the application of encryption, the management of lifecycle for PII (including early deletion of any PII no longer required), providing access to PII for data subjects
+El componente de protección de PII proporciona capacidades para ayudar a brindar la protección adecuada a cualquier PII manejada por el sistema DLT. Esto puede incluir la identificación y clasificación de la PII, la aplicación de cifrado, la gestión del ciclo de vida de la PII (incluida la eliminación anticipada de cualquier PII que ya no sea necesaria), el acceso a la PII para los interesados.
 
 ### 8.6.4. Governanza y Cumplimiento
 Los componentes funcionales de Governanza y Cumplimiento le permiten al sistema DLR gobernar y auditar características basadas en los requerimientos de governanza y cumplimiento de los dueños y operadores de un nodo DLT. La Governanza puede ayudar a prevenir que las redes DLT se encuentren fuera del marco de las leyes, regulaciones y normas de la industria (como convertirse en la portadora de lavado de dinero, financiamientos ilegales o transacciones criminales). Éstos incluyen las siguientes funciones:
